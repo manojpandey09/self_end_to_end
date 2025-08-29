@@ -35,6 +35,10 @@ model_trainer_obj.initiate_model_trainer(train_arr, test_arr)
 # u will see a model.pkl file and 
 
 #after running code u will see a model.pkl file and preprocessor file is  created in artifacts folder
+#and u wll see a result with model training is completed
+#now move to prediction.pipeline file and code
+
+
 
 
 
