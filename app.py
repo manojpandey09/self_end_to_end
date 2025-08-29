@@ -72,7 +72,7 @@ def predict_datapoint():
         return render_template("result.html",final_result=result)
 
 if __name__ == '__main__':
-    app.run()
+    #app.run()
 
 #now make a file again in templates name form.html
 # and do the coding there 
@@ -83,3 +83,13 @@ if __name__ == '__main__':
 # u  will see the the result but when u use / predict result is different  in locak host   
 
 
+
+
+
+#after coming from main.yaml file
+#WE are updating thee local host port to 8000 put comment on above local hostlinne no .  75 
+
+
+    app.run(host="0.0.0.0",port=8000)
+
+    #push to git hub repo
